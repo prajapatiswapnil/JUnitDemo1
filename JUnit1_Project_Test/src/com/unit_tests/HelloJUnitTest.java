@@ -1,11 +1,9 @@
 package com.unit_tests;
 
-import static org.junit.Assert.*;
-
-import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
-
+@Category(GoodTestsCategory.class)
 public class HelloJUnitTest {
 	
 	@Test

@@ -28,7 +28,9 @@ public class TrackingService {
 		return total;
 	}
 
-	public void setGoal(int value) {
+	public void setGoal(int value) throws InvalidGoalException {
+		if(value < 0)
+			throw new InvalidGoalException("Goal was less than zero!");
 		goal = value;
 	}
 
@@ -41,4 +43,3 @@ public class TrackingService {
 	}
 	
 }
-
