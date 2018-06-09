@@ -1,0 +1,1 @@
+java -cp C:\Java\tools\utilities\*;C:\Java\GitHub\JUnitDemo1\Jar\JUnit1_Project.jar org.junit.runner.JUnitCore com.unit_tests.TrackingServiceTests

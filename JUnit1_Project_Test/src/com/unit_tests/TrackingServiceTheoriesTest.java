@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import com.proteintracker.TrackingService;
 
 @RunWith(Theories.class)
-public class TrackingServiceTheories {
+public class TrackingServiceTheoriesTest {
 
 	@DataPoints
 	public static int[] data() {

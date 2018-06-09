@@ -3,7 +3,7 @@ package com.unit_tests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-@Category(GoodTestsCategory.class)
+@Category(GoodTestsCategoryTest.class)
 public class HelloJUnitTest {
 	
 	@Test

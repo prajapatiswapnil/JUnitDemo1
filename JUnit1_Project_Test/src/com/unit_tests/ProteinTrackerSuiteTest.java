@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ HelloJUnitTest.class, TrackingServiceTests.class })
-public class ProteinTrackerSuite {
+@Suite.SuiteClasses({ HelloJUnitTest.class, TrackingServiceTest.class })
+public class ProteinTrackerSuiteTest {
 
 }

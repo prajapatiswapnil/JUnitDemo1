@@ -1,0 +1,8 @@
+com\unit_tests\GoodTestsCategoryTest.class
+com\unit_tests\TrackingServiceTheoriesTest.class
+com\unit_tests\HelloJUnitTest.class
+com\unit_tests\GoodSuiteTest.class
+com\unit_tests\TrackingServiceTest.class
+com\unit_tests\BadCategoryTest.class
+com\unit_tests\ParameterizedTest.class
+com\unit_tests\ProteinTrackerSuiteTest.class

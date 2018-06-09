@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.Parameters;
 import com.proteintracker.TrackingService;
 
 @RunWith(Parameterized.class)
-public class ParameterizedTests {
+public class ParameterizedTest {
 
 	private static TrackingService service = new TrackingService();
 	private int input;
@@ -24,7 +24,7 @@ public class ParameterizedTests {
 		return Arrays.asList(new Object[][] { { 5, 5 }, { 5, 10 }, { -12, 1 }, { 50, 50 }, { 1, 51 } });
 	}
 
-	public ParameterizedTests(int input, int expected) {
+	public ParameterizedTest(int input, int expected) {
 		this.input = input;
 		this.expected = expected;
 
